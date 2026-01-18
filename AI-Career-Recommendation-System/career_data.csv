@@ -1,0 +1,71 @@
+user_id,skills,interests,career
+1,python machine learning,data ai,Data Scientist
+2,python statistics,data analysis,Data Analyst
+3,sql excel powerbi,business insights,Business Analyst
+4,deep learning tensorflow,ai research,AI Engineer
+5,java spring,backend api,Backend Developer
+6,nodejs express mongodb,backend services,Full Stack Developer
+7,html css javascript,web design,Web Developer
+8,react javascript frontend,ui web,Frontend Developer
+9,angular typescript frontend,web ui,Frontend Developer
+10,photoshop figma,ui ux,UI UX Designer
+11,illustrator creativity,graphic design,Graphic Designer
+12,c c++ embedded systems,iot hardware,Embedded Engineer
+13,arduino sensors,iot projects,IoT Engineer
+14,raspberry pi python,iot automation,IoT Engineer
+15,linux networking,system admin,System Administrator
+16,network security firewall,cybersecurity,Cyber Security Analyst
+17,ethical hacking kali,penetration testing,Ethical Hacker
+18,cloud aws ec2,cloud services,Cloud Engineer
+19,azure devops ci cd,cloud deployment,DevOps Engineer
+20,docker kubernetes,container orchestration,DevOps Engineer
+21,python django web,backend development,Backend Developer
+22,flutter dart,mobile apps,Mobile App Developer
+23,android kotlin,mobile development,Android Developer
+24,ios swift,mobile apps,iOS Developer
+25,sql oracle database,database management,Database Administrator
+26,blockchain solidity,web3 development,Blockchain Developer
+27,unity c#,game design,Game Developer
+28,blender 3d modeling,animation design,3D Artist
+29,tableau powerbi,data visualization,Data Analyst
+30,statistics r programming,data science,Data Scientist
+31,python nlp,text processing,NLP Engineer
+32,computer vision opencv,image processing,Computer Vision Engineer
+33,matlab simulink,control systems,Automation Engineer
+34,robotics ros,autonomous systems,Robotics Engineer
+35,mechanical cad solidworks,product design,Mechanical Design Engineer
+36,testing selenium automation,qa testing,QA Engineer
+37,manual testing bug tracking,software quality,Software Tester
+38,product management agile,roadmap planning,Product Manager
+39,digital marketing seo,online marketing,Digital Marketing Specialist
+40,content writing blogging,media communication,Content Writer
+41,python pandas numpy,data cleaning,Data Analyst
+42,python scikit learn,ml modeling,Machine Learning Engineer
+43,deep learning pytorch,neural networks,AI Engineer
+44,nlp transformers bert,text analysis,NLP Engineer
+45,opencv image processing,computer vision,Computer Vision Engineer
+46,aws lambda serverless,cloud computing,Cloud Engineer
+47,google cloud kubernetes,cloud orchestration,DevOps Engineer
+48,terraform ansible,infra automation,DevOps Engineer
+49,linux bash scripting,system automation,System Administrator
+50,cyber forensics malware,security analysis,Cyber Security Analyst
+51,soc monitoring siem,incident response,Security Operations Analyst
+52,ethical hacking tools,penetration testing,Ethical Hacker
+53,sql mysql postgresql,database optimization,Database Administrator
+54,nosql mongodb cassandra,big data storage,Database Engineer
+55,hadoop spark,big data processing,Big Data Engineer
+56,tableau storytelling,data visualization,Data Analyst
+57,powerbi dax,dashboard design,Business Intelligence Developer
+58,excel vba automation,reporting tools,Business Analyst
+59,product lifecycle agile,stakeholder management,Product Manager
+60,scrum kanban,team leadership,Scrum Master
+61,unity unreal,game physics,Game Developer
+62,blender maya,3d animation,3D Artist
+63,after effects premiere,video editing,Video Editor
+64,digital ads analytics,marketing campaigns,Digital Marketing Specialist
+65,seo content strategy,search optimization,SEO Specialist
+66,copywriting branding,creative writing,Content Writer
+67,technical documentation,api writing,Technical Writer
+68,robotics automation plc,industrial robots,Robotics Engineer
+69,mechatronics sensors actuators,automation systems,Automation Engineer
+70,cad cam manufacturing,process design,Manufacturing Engineer
