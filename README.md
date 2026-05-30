@@ -14,6 +14,7 @@ Features:
 •NLP text processing using TF-IDF
 •Machine learning model using Decision Trees
 •Interactive web interface built with Streamlit
+•New & fresh project ideas for portfolio building
 •Lightweight and easy to run locally
 
 Tech Stack:

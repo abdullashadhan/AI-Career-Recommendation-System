@@ -35,14 +35,56 @@ user_input = st.text_area(
     placeholder="Example: python machine learning data analysis",
     height=120
 )
+recommended_career = None
 if st.button(" Recommend Career"):
     if user_input.strip() == "":
         st.warning(" Please enter your skills and interests")
     else:
         user_vector = vectorizer.transform([user_input])
         prediction = model.predict(user_vector)[0]
+        recommended_career = prediction
 
         st.success(f" Recommended Career: **{prediction}**")
+
+st.divider()
+
+fresh_projects = [
+    {
+        "title": "Smart Study Planner",
+        "description": "Build a planner that adapts schedules based on goals and focus time.",
+        "tags": ["Python", "Streamlit", "Productivity"]
+    },
+    {
+        "title": "AI Resume Feedback Tool",
+        "description": "Analyze resumes and suggest improvements using NLP.",
+        "tags": ["NLP", "Data", "Career"]
+    },
+    {
+        "title": "Personal Finance Dashboard",
+        "description": "Track expenses and visualize spending trends with insights.",
+        "tags": ["Data Viz", "Analytics", "SQL"]
+    },
+    {
+        "title": "IoT Home Energy Monitor",
+        "description": "Collect sensor data and display live energy usage.",
+        "tags": ["IoT", "Sensors", "Realtime"]
+    },
+    {
+        "title": "Portfolio Project Showcase",
+        "description": "Create a responsive site to highlight your best work.",
+        "tags": ["Frontend", "UI", "Web"]
+    }
+]
+
+st.subheader(" New & Fresh Projects")
+st.caption("Kickstart your portfolio with these ideas.")
+for project in fresh_projects:
+    tag_list = ", ".join(project["tags"])
+    st.markdown(f"**{project['title']}** — {project['description']}")
+    st.markdown(
+        f"<span style='font-size:12px; color:gray;'>Tags: {tag_list}</span>",
+        unsafe_allow_html=True
+    )
 
 st.divider()
 
